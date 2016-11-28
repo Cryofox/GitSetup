@@ -20,6 +20,7 @@ function gitCommit
 {
 	# $1 = Argument 1
 	git commit -m "\"$1\""
+	echo "git commit -m "\"$1\"""
 }
 
 # ShortHand for Commit with WIP Emoji
@@ -54,7 +55,7 @@ function gitc_Doc
 	commit="$doc$1";
 	gitCommit "$commit";
 }
-function gitc_Doc
+function gitc_Opt
 {
 	commit="$opt$1";
 	gitCommit "$commit";
