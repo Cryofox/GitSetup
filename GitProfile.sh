@@ -19,7 +19,7 @@ new=":bulb:";
 function gitCommit
 {
 	# $1 = Argument 1
-	git commit -m $1
+	git commit -m "\"$1\""
 }
 
 # ShortHand for Commit with WIP Emoji
