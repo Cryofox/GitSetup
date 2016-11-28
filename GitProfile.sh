@@ -1,0 +1,16 @@
+ #!/bin/bash 
+wip=":construction:";
+bug=":bug:";
+art=":art:";
+log=":speaker:";
+mute=":mute:";
+doc=":pencil2:";
+opt=":rocket:";
+dist=":package:";
+up=":arrow_up:";
+down=":arrow_down:";
+test=":white_check_mark:";
+add=":heavy_plus_sign:";
+rmv=":heavy_minus_sign:";
+sec=":lock:";
+new=":bulb:";
