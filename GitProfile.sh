@@ -91,7 +91,7 @@ function gitc_Add
 	commit="$add$1";
 	gitCommit "$commit";
 }
-function gitc_Test
+function gitc_Remove
 {
 	commit="$rmv$1";
 	gitCommit "$commit";

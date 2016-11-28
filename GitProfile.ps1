@@ -88,7 +88,8 @@ function gitc_Add($1)
 {
 	$commit="$add$1";
 	gitCommit $commit
-}function gitc_Test($1)
+}
+function gitc_Remove($1)
 {
 	$commit="$rmv$1";
 	gitCommit $commit
